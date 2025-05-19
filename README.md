@@ -56,4 +56,4 @@ Unit tests are provided to ensure the correctness of various components, includi
 •	ViewModel: Tests ViewModel logic and state management.
 To run unit tests, use the following command: ./gradlew test
 
-![image](https://github.com/user-attachments/assets/30f483b3-95c0-46f4-80e2-c597a6caa21a)
+
