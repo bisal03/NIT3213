@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Final_assesment_Bishal_s4679860</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="login">Log In</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>\
+
+
+    <!--    Dashboard-->
+    <string name="left_arrow">Left Arrow</string>
+    <string name="right_arrow">Right Arrow\n</string>
+    <string name="art_gallery">Art Gallery</string>
+    <string name="welcome_to_art_gallery">Welcome to Zoo</string>
+    <string name="imagelist">ImageList</string>
+    <string name="diet_carnivorous">Diet: Carnivorous</string>
+
+    <!-- dashboard -->
+
+</resources>

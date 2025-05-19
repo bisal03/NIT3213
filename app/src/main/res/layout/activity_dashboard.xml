@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img9"
+    android:backgroundTintMode="add"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Barrangarro Zoo"
+
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="center_horizontal"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingStart="48dp"
+        android:paddingEnd="48dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/left_arrow"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/circular_button_left"
+            android:contentDescription="@string/left_arrow"
+            android:elevation="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow_left_24" />
+
+        <ImageButton
+            android:id="@+id/right_arrow"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/circular_button_right"
+            android:contentDescription="@string/right_arrow"
+            android:elevation="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arrow_right_24" />
+    </LinearLayout>
+
+</LinearLayout>
